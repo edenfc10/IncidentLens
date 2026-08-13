@@ -1,0 +1,9 @@
+packages:
+  - apps/web
+
+allowBuilds:
+  unrs-resolver: true
+
+confirmModulesPurge: false
+
+verifyDepsBeforeRun: false

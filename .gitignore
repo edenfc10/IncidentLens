@@ -1,0 +1,25 @@
+# Local Codex scratch directory
+work/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node.js
+node_modules/
+.next/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
