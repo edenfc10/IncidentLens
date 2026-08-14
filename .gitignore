@@ -23,3 +23,6 @@ node_modules/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Next.js generated type declarations
+apps/frontend/next-env.d.ts
