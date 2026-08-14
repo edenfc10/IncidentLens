@@ -1,5 +1,5 @@
 {
-  "name": "@incidentlens/web",
+  "name": "@incidentlens/frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
