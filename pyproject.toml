@@ -5,3 +5,7 @@ requires-python = ">=3.12,<3.13"
 
 [tool.uv.workspace]
 members = ["apps/backend"]
+
+[tool.pytest.ini_options]
+pythonpath = ["apps/backend"]
+testpaths = ["apps/backend/tests"]
