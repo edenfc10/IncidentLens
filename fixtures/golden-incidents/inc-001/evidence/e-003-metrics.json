@@ -1,0 +1,12 @@
+{
+  "service": "payment-service",
+  "environment": "production",
+  "captured_at": "2026-08-15T09:03:20Z",
+  "metrics": {
+    "db_pool_max": 5,
+    "db_pool_in_use": 5,
+    "db_pool_waiters": 37,
+    "http_500_rate_percent": 18.4,
+    "checkout_p95_latency_ms": 8120
+  }
+}

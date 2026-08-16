@@ -1,0 +1,14 @@
+{
+  "service": "payment-service",
+  "environment": "production",
+  "version": "2.4.1",
+  "commit_sha": "a51f9d2",
+  "deployed_at": "2026-08-15T09:00:00Z",
+  "configuration_changes": [
+    {
+      "key": "DB_POOL_SIZE",
+      "previous_value": "40",
+      "new_value": "5"
+    }
+  ]
+}

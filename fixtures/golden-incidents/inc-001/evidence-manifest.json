@@ -1,0 +1,40 @@
+{
+  "incident_id": "INC-001",
+  "items": [
+    {
+      "id": "E-001",
+      "source_type": "deployment",
+      "title": "Payment service deployment configuration",
+      "path": "evidence/e-001-deployment.json",
+      "observed_at": "2026-08-15T09:00:00Z"
+    },
+    {
+      "id": "E-002",
+      "source_type": "log",
+      "title": "Payment service application errors",
+      "path": "evidence/e-002-application.log",
+      "observed_at": "2026-08-15T09:03:12Z"
+    },
+    {
+      "id": "E-003",
+      "source_type": "metric",
+      "title": "Database connection pool metrics",
+      "path": "evidence/e-003-metrics.json",
+      "observed_at": "2026-08-15T09:03:20Z"
+    },
+    {
+      "id": "E-004",
+      "source_type": "runbook",
+      "title": "Payment service database runbook",
+      "path": "evidence/e-004-runbook.md",
+      "observed_at": null
+    },
+    {
+      "id": "E-005",
+      "source_type": "log",
+      "title": "Earlier Stripe rate-limit warning",
+      "path": "evidence/e-005-stripe-warning.log",
+      "observed_at": "2026-08-15T08:20:00Z"
+    }
+  ]
+}

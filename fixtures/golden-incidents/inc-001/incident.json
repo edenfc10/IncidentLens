@@ -1,0 +1,10 @@
+{
+  "id": "INC-001",
+  "title": "Payment service returns HTTP 500 after deployment",
+  "service": "payment-service",
+  "environment": "production",
+  "severity": "sev-1",
+  "status": "resolved",
+  "started_at": "2026-08-15T09:03:00Z",
+  "resolved_at": "2026-08-15T09:18:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "incident_id": "INC-001",
+  "root_cause_code": "database_connection_pool_exhaustion",
+  "expected_summary": "The payment-service failures were caused by database connection pool exhaustion after DB_POOL_SIZE was reduced from 40 to 5 in deployment version 2.4.1.",
+  "required_evidence_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004"
+  ],
+  "distractor_evidence_ids": [
+    "E-005"
+  ],
+  "expected_remediation": [
+    "Restore DB_POOL_SIZE to 40 or roll back the deployment configuration.",
+    "Monitor the HTTP 500 rate, database pool utilization, connection waiters, and checkout latency."
+  ]
+}
